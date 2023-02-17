@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "huonglm1",
+    "description": "huonglm1 extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "default_icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [{
+        "matches": ["https://*.blogtruyen.vn/*"],
+        "css": ["blogtruyen.css"],
+        "js": ["blogtruyen.js"]
+    }]
+}

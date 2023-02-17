@@ -1,0 +1,6 @@
+.qc-css,
+.BT-Ads,
+#content>img+a {
+    display: none !important;
+    z-index: -1 !important;
+}
